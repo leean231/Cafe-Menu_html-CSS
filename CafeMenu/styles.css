@@ -1,0 +1,107 @@
+/* for this we use <div class="menu">*/
+.menu{
+    width: 80%;/*can also add px. for eg 300px*/
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px; /*padding-left, padding-right, padding-top, padding-bottom*/
+    max-width: 500px;
+  }
+
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+  }
+
+  body{
+    background-image: url(https://images.pexels.com/photos/3609494/pexels-photo-3609494.jpeg);
+    font-family: sans-serif;
+    padding: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;/* This keeps the background fixed when scrolling */
+  }
+
+  hr{
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+  }
+
+  h1,p,h2 {
+    text-align: center;
+}
+
+h1,h2{
+  font-family: Impact, serif;
+}
+
+h1{
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+h2{
+  font-size: 30px;
+}
+
+.flavor,.dessert{
+    text-align: left;
+    width: 75%;
+}
+.price{
+    text-align: right;
+    width: 25%;
+}
+
+.item p{
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+.established{
+  font-style: italic;
+}
+
+.bottom-line{
+  margin-top: 25px;
+}
+
+/*FOOTER*/
+footer{
+  font-size: 14px;
+}
+.address{
+  margin-bottom: 5px;
+}
+a{
+  color: black;
+}
+a:visited {
+  color: black;
+}
+a:hover{
+  color: rgb(243, 198, 198);
+}
+a:active {
+  color: brown;
+}
+
+  /* for this we use <div id="menu">
+  #menu{
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  */
+ 
+/*body{
+    background-color: burlywood;
+}
+*/
+ 

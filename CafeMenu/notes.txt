@@ -1,0 +1,58 @@
+You can add style to an element by specifying it in the style element and 
+setting a property for it like this:
+
+element {
+ property: value;
+}
+
+=> Use only one <h1> per project. It can be used as a main heading.
+
+=> For the styling of the page to look similar on mobile as it does on a desktop or 
+laptop, you need to add a meta element with a special content attribute.
+Add the following within the head element:
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+=> The div element is used mainly for design layout purposes 
+unlike the other content elements you have used so far.
+
+<!--
+You can use the id selector to target a specific element with an id attribute. 
+An id selector is defined by placing the hash symbol # 
+directly in front of the element's id value. 
+For example, if an element has the id of cat then you would target that element like this:
+
+#cat {
+  width: 250px;
+}
+-->
+
+<--
+Think of the margin as invisible space around an element. 
+Using these two margin properties, center the #menu element within the body element.
+-->
+
+<--it is more common to use a different selector to style your elements.
+
+A class selector is defined by a name with a dot directly in front of it, like this:
+
+.class-name {
+  styles
+}-->
+
+<--article elements commonly contain multiple elements that have related information. 
+In this case, it will contain a coffee flavor and a price for that flavor. -->
+
+<--
+The current width of the menu will always take up 80% of the body element's width. 
+On a very wide screen, the coffee and dessert appear far apart from their prices.
+
+Add a max-width property to the menu class with a value of 500px to prevent 
+it from growing too wide.
+-->
+
+<--
+You can add a fallback value for the font-family by adding another 
+font name separated by a comma.Fallbacks are used in instances where 
+the initial is not found/available.
+-->
